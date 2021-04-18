@@ -1,0 +1,792 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>educa-social documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">educa-social documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>HomeGrupoComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/home-grupo/home-grupo.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-home-grupo</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./home-grupo.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./home-grupo.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#descricao">descricao</a>
+                            </li>
+                            <li>
+                                <a href="#fotoCapa">fotoCapa</a>
+                            </li>
+                            <li>
+                                <a href="#fotoPerfil">fotoPerfil</a>
+                            </li>
+                            <li>
+                                <a href="#idGrupo">idGrupo</a>
+                            </li>
+                            <li>
+                                <a href="#nome">nome</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#router">router</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#buscaGrupo">buscaGrupo</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#sair">sair</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, grupoService: <a href="../injectables/GrupoService.html">GrupoService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:12</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>grupoService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/GrupoService.html" target="_self" >GrupoService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="buscaGrupo"></a>
+                    <span class="name">
+                        <b>
+                            buscaGrupo
+                        </b>
+                        <a href="#buscaGrupo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>buscaGrupo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="29"
+                            class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:29</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="24"
+                            class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:24</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sair"></a>
+                    <span class="name">
+                        <b>
+                            sair
+                        </b>
+                        <a href="#sair"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sair()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="39"
+                            class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:39</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="descricao"></a>
+                        <span class="name">
+                            <b>
+                            descricao</b>
+                            <a href="#descricao"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fotoCapa"></a>
+                        <span class="name">
+                            <b>
+                            fotoCapa</b>
+                            <a href="#fotoCapa"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:22</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fotoPerfil"></a>
+                        <span class="name">
+                            <b>
+                            fotoPerfil</b>
+                            <a href="#fotoPerfil"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:21</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="idGrupo"></a>
+                        <span class="name">
+                            <b>
+                            idGrupo</b>
+                            <a href="#idGrupo"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>environment.idGrupo</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="nome"></a>
+                        <span class="name">
+                            <b>
+                            nome</b>
+                            <a href="#nome"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="router"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            router</b>
+                            <a href="#router"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/home-grupo/home-grupo.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { environment } from &#x27;src/environments/environment.prod&#x27;;
+import { Grupo } from &#x27;../models/Grupo&#x27;;
+import { GrupoService } from &#x27;../service/grupo.service&#x27;;
+
+@Component({
+  selector: &#x27;app-home-grupo&#x27;,
+  templateUrl: &#x27;./home-grupo.component.html&#x27;,
+  styleUrls: [&#x27;./home-grupo.component.css&#x27;]
+})
+export class HomeGrupoComponent implements OnInit {
+
+  constructor(public router: Router,
+    private grupoService: GrupoService) { }
+
+  //informações do grupo
+  idGrupo: number &#x3D; environment.idGrupo;
+  nome: string
+  descricao: string;
+  fotoPerfil: string;
+  fotoCapa: string;
+
+  ngOnInit(): void {
+    window.scroll(0, 0);
+    this.buscaGrupo();
+  }
+
+  buscaGrupo() {
+    this.idGrupo&#x3D; environment.idGrupo;
+    this.grupoService.buscarGrupoPorId(this.idGrupo).subscribe((resp: Grupo) &#x3D;&gt; {
+      this.nome &#x3D; resp.nome;
+      this.descricao &#x3D; resp.descricao;
+      this.fotoPerfil &#x3D; resp.fotoPerfil;
+      this.fotoCapa &#x3D; resp.fotoCapa;
+    })
+  }
+
+  sair() {
+    this.router.navigate([&#x27;/entrar&#x27;])
+
+
+
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container p-0 bg-dark cr round&quot;&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+            &lt;div id&#x3D;&quot;content&quot; class&#x3D;&quot;content content-full-width&quot;&gt;
+                &lt;!-- begin profile --&gt;
+                &lt;div class&#x3D;&quot;profile&quot;&gt;
+                    &lt;div class&#x3D;&quot;profile-header round&quot;&gt;
+        
+                        &lt;!-- BEGIN profile-header-cover --&gt;
+                        &lt;div class&#x3D;&quot;profile-header-cover&quot;&gt;&lt;/div&gt;
+                        &lt;!-- END profile-header-cover --&gt;
+                        &lt;!-- BEGIN profile-header-content --&gt;
+                        &lt;div class&#x3D;&quot;profile-header-content cor&quot;&gt;
+
+                            &lt;!-- BEGIN profile-header-img --&gt;
+                            &lt;div class&#x3D;&quot;profile-header-img&quot;&gt;
+                                &lt;img class&#x3D;&quot;w-100 h-100&quot; [src]&#x3D;&quot;fotoPerfil&quot; alt&#x3D;&quot;&quot;&gt;
+                            &lt;/div&gt;
+                            &lt;!-- END profile-header-img --&gt;
+                            &lt;!-- BEGIN profile-header-info --&gt;
+                            &lt;div class&#x3D;&quot;profile-header-info &quot;&gt;
+                   
+                                
+                                &lt;h4 class&#x3D;&quot;m-t-10 m-b-5 font_n g&quot;&gt;Nome: {{nome}}&lt;/h4&gt;
+                                &lt;p class&#x3D;&quot;m-b-10 font_n&quot;&gt;Descrição: {{descricao}}&lt;/p&gt;
+                                &lt;a class&#x3D;&quot;btn btn-sm btn-info mb-2 font_n&quot;&gt;Editar Grupo&lt;/a&gt;
+                            &lt;/div&gt;
+                         
+                            
+                            &lt;!-- END profile-header-info --&gt;
+                        &lt;/div&gt;
+                        &lt;!-- END profile-header-content --&gt;
+                    &lt;/div&gt;
+                   
+                &lt;/div&gt;
+                &lt;!-- end profile --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;container p-0&quot;&gt;
+    &lt;!-- BEGIN profile-header-tab --&gt;
+    &lt;ul class&#x3D;&quot;col-md-12 profile-header-tab nav nav-tabs&quot;&gt;
+        &lt;li class&#x3D;&quot;nav-item font_n&quot;&gt;&lt;a routerLink&#x3D;&#x27;/grupo-home/posts&#x27; class&#x3D;&quot;nav-link active&quot;&gt;
+                &lt;i class&#x3D;&quot;fa fa-rocket mr-2&quot;&gt;&lt;/i&gt; Posts&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class&#x3D;&quot;nav-item font_n&quot;&gt;&lt;a routerLink&#x3D;&#x27;/home-usuario/tema&#x27; class&#x3D;&quot;nav-link&quot;&gt;
+                &lt;i class&#x3D;&quot;fa fa-backward mr-2&quot;&gt;&lt;/i&gt; Voltar&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;!-- END profile-header-tab --&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./home-grupo.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.font_n {
+    font-family: &#x27;Poppins&#x27;, sans-serif;
+    
+}
+
+.cor {
+    background: rgb(5,79,119);
+    background: linear-gradient(90deg, rgba(5,79,119,1) 0%, rgba(9,96,121,1) 56%, rgba(92,143,207,1) 100%);
+    
+}
+
+.cr{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.round {
+    border-radius: 0px 15px;
+}
+
+.f{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.g{
+    display: inline;
+    
+}
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container p-0 bg-dark cr round">    <div class="row">        <div class="col-md-12">            <div id="content" class="content content-full-width">                <!-- begin profile -->                <div class="profile">                    <div class="profile-header round">                                <!-- BEGIN profile-header-cover -->                        <div class="profile-header-cover"></div>                        <!-- END profile-header-cover -->                        <!-- BEGIN profile-header-content -->                        <div class="profile-header-content cor">                            <!-- BEGIN profile-header-img -->                            <div class="profile-header-img">                                <img class="w-100 h-100" [src]="fotoPerfil" alt="">                            </div>                            <!-- END profile-header-img -->                            <!-- BEGIN profile-header-info -->                            <div class="profile-header-info ">                                                                                   <h4 class="m-t-10 m-b-5 font_n g">Nome: {{nome}}</h4>                                <p class="m-b-10 font_n">Descrição: {{descricao}}</p>                                <a class="btn btn-sm btn-info mb-2 font_n">Editar Grupo</a>                            </div>                                                                                 <!-- END profile-header-info -->                        </div>                        <!-- END profile-header-content -->                    </div>                                   </div>                <!-- end profile -->            </div>        </div>    </div></div><div class="container p-0">    <!-- BEGIN profile-header-tab -->    <ul class="col-md-12 profile-header-tab nav nav-tabs">        <li class="nav-item font_n"><a routerLink=\'/grupo-home/posts\' class="nav-link active">                <i class="fa fa-rocket mr-2"></i> Posts</a>        </li>        <li class="nav-item font_n"><a routerLink=\'/home-usuario/tema\' class="nav-link">                <i class="fa fa-backward mr-2"></i> Voltar</a>        </li>    </ul>    <!-- END profile-header-tab --></div></div>'
+    var COMPONENTS = [{'name': 'AlertasComponent', 'selector': 'app-alertas'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CadastrarComponent', 'selector': 'app-cadastrar'},{'name': 'EntrarComponent', 'selector': 'app-entrar'},{'name': 'FeedPostagemComponent', 'selector': 'app-feed-postagem'},{'name': 'GroupComponent', 'selector': 'app-group'},{'name': 'HomeGrupoComponent', 'selector': 'app-home-grupo'},{'name': 'HomeTemaComponent', 'selector': 'app-home-tema'},{'name': 'HomeUsuarioComponent', 'selector': 'app-home-usuario'},{'name': 'InicialComponent', 'selector': 'app-inicial'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'NavbarPaginaEstaticaComponent', 'selector': 'app-navbar-pagina-estatica'},{'name': 'PilaresComponent', 'selector': 'app-pilares'},{'name': 'RodapeComponent', 'selector': 'app-rodape'},{'name': 'SearchComponent', 'selector': 'app-search'},{'name': 'SobreNosComponent', 'selector': 'app-sobre-nos'},{'name': 'ThemeComponent', 'selector': 'app-theme'},{'name': 'ValoresComponent', 'selector': 'app-valores'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'HomeGrupoComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'HomeGrupoComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
